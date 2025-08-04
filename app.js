@@ -25,6 +25,8 @@ while(numeroSecreto != numeroUsuario || intentos != 0) {
 }
 alert('Fin del juego');
 
+// Desafios
+
 // 1 Crea un programa que utilice console.log para mostrar un mensaje de bienvenida.
 
 // 2 Crea una variable llamada "nombre" y asígnale tu nombre. Luego, utiliza console.log para mostrar el 
@@ -59,3 +61,13 @@ alert('Fin del juego');
 // 12 Utiliza Math.random para generar un número entero entre 1 y 10 y muestra ese número en la consola.
 
 // 13 Utiliza Math.random para generar un número entero entre 1 y 1000 y muestra ese número en la consola.
+
+/*
+Tips
+
+En esta lección, vimos cómo usar la documentación para generar un número aleatorio a través de la documentación de Mozilla.
+Sin embargo, también existe W3Schools (W3S), que es un recurso en línea ampliamente conocido y utilizado para aprender diversas
+tecnologías de desarrollo web, incluido JavaScript (JS).El sitio web ofrece tutoriales interactivos, ejemplos de código, referencias 
+de sintaxis y conceptos fundamentales relacionados con JavaScript y otros lenguajes web.
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+*/
