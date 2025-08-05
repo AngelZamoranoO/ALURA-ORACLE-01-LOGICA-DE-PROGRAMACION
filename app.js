@@ -1,10 +1,14 @@
-let numeroSecreto = Math.floor(Math.random() * 10) + 1;
+
+
+// let numeroDeseasJugar = parseInt(prompt('Indicame hasta que numero deseas jugar, ejemplo 1 a 100'))
+ let numeroDeseasJugar = 100; 
+let numeroSecreto = Math.floor(Math.random() * numeroDeseasJugar) + 1;
 let numeroUsuario = 0;
 let intentos = 1;
 let maximoIntentos = 6
 while(numeroSecreto != numeroUsuario || intentos != 0) {
 
-    let numeroUsuario = parseInt(prompt(`Me indicas un numero del 1 al 10:`));
+    let numeroUsuario = parseInt(prompt(`Me indicas un numero del 1 al ${numeroDeseasJugar}:`));
 
     if (numeroUsuario == numeroSecreto) {
         alert(`Acertaste el numero es ${numeroUsuario}, lo hiciste en el ${intentos} ${intentos == 1 ? 'vez' : 'veces'}`);
@@ -24,3 +28,8 @@ while(numeroSecreto != numeroUsuario || intentos != 0) {
     }    
 }
 alert('Fin del juego');
+
+/*
+Aquí te dejo una frase para que celebremos esta victoria:
+"Si siempre intentas ser normal, nunca descubrirás lo extraordinario que puedes llegar a ser." (Maya Angelou)
+*/
